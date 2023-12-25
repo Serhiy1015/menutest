@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кільця ущільнюючі</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link href="/photos/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5%;
+            row-gap: 50px;
+            justify-content: space-around;
+        }
+
+        section a {
+            color: #F2F2F2;
+            background-color: #25282e;
+            width: 40%;
+            text-decoration: none;
+            padding: 2% 3%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 18px;
+        }
+
+        section a div {
+            display: flex;
+            width: 100%;
+            gap: 5%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section a div img {
+            width: 50%;
+        }
+
+        section a div p {
+            width: 130%;
+        }
+
+        .rings-text {
+            color: #F2F2F2;
+            background-color: #25282e;
+            width: 40%;
+            text-decoration: none;
+            padding: 2% 3%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+            font-size: 16px;
+            align-items: center;
+        }
+
+        .rings-text img {
+            width: 400px;
+            height: 90px;
+        }
+        @media screen and (max-width:450px) {
+            section a, .rings-text {
+            width: 90%;
+            gap: 10px;
+            font-size: 13px;
+        }
+        .rings-text div{
+            flex-direction: column;
+        }
+        .rings-text img {
+            width: 300px;
+            height: 110px;
+        }
+        .list{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+            position: relative;
+            left: 10px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="burger-back"></div>
+    <span id="times">&times;</span>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <a style="text-decoration: none;" href="../../index.html">
+                    <h1 class="title">SEALMASTER</h1>
+                </a>
+                <ul id="header-menu">
+                    <a href="../../index.html">Головна</a>
+                    <a href="../contacts.html">Контакти</a>
+                    <a href="../delivery.html">Доставка</a>
+                    <span id="goods-header">Товари<div id="triangle"></div>
+                    </span>
+                    <span class="drop-menu-wrap" id="drop-menu-wrap">
+                        <span id="drop-menu">
+                            <a target="_blank" href="./hydraulics.html">Гідравліка</a>
+                            <a target="_blank" href="./pneumatic.html">Пневматичні ущільнення</a>
+                            <a target="_blank" href="./rings.html">Кільця ущільнюючі</a>
+                            <a target="_blank" href="./mandjets.html">Манжети армовані (сальники) </a>
+                            <a target="_blank" href="./remcoplects.html">Ремкомплекти </a>
+                            <a target="_blank" href="./metal-components.html">Метало-комплектуючі </a>
+                            <a target="_blank" href="./non-standard.html">Нестандартні ущільнення </a>
+                            <a target="_blank" href="./katalogs.html">Каталоги </a>
+                        </span>
+                    </span>
+                </ul>
+                <div id="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </nav>
+            <p>Якісні ущільнення для гідравлічних і пневматичних циліндрів та систем
+            </p>
+        </header>
+        <hr>
+
+        <section>
+            <a href="">
+                <h1>Кільця ущільнюючі</h1>
+                <div>
+                    <img src="../../photos/кільця2 4х4 кільця.jpg" alt="">
+                    <p>
+                        Гумові кільця дозволяють конструктору запроектовати в обладнанні эфективний і недорогий
+                        ущільнюючий елемент.
+                    </p>
+                </div>
+            </a>
+            <div class="rings-text">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span>
+                        <p>Маркування згідно DIN3771: внутрішній діаметр d1 і січення d2
+                        </p>
+                        <p>Приклад: 12х2,5 NBR70
+                        </p>
+                    </span>
+                    <img src="../../photos/кільця діаметр.png" alt="">
+                </div>
+                <div>
+                    <p>У порівнянні з більш складними ущільненнями, кільця резинові мають наступні переваги:
+                    </p>
+                    <ul class="list">
+                        <li>Вимагають простої забудови (монтажного простору)
+                        </li>
+                        <li>Компактні розміри
+                        </li>
+                        <li>Простий монтаж
+                        </li>
+                        <li>Можливість різного застосування ущільнення
+                        </li>
+                        <li>Широкій вибір матеріалів - широке застосування</li>
+                        <li>Наявність на складі, короткі терміни постачання промислових партій
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+ 
+    <script src="../../script.js"></script>
+</body>
+
+</html>
